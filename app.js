@@ -130,7 +130,8 @@
   async function initFeatured(){
     if(!featuredGrid) return;
     try{
-      const res = await fetch('assets/data/products.json', {cache:'no-store'});
+      const res = await fetch('products.json', {cache:'no-store'});
+
       const data = await res.json();
       const picks = [];
       if(Array.isArray(data.drops) && data.drops[0]) picks.push(data.drops[0]);
