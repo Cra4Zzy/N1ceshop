@@ -109,7 +109,8 @@
   async function initProducts(){
     if(!grid) return;
     try{
-      const res = await fetch('assets/data/products.json', {cache:'no-store'});
+      const res = await fetch('products.json', {cache:'no-store'});
+
       const data = await res.json();
       state.all = (data[state.category] || []).map(x => ({...x, currency: x.currency || '€'}));
       const count = $('#count'); if(count) count.textContent = String(state.all.length);
