@@ -113,64 +113,51 @@
   "image": "bedsure-hoodie-decke-grau.webp"
 }
 
-
-  ],
+[,
+     
   "drops": [
     {
-  "id": "drop-001",
-  "title": "Beyblade X Sword Dran 3-60F – Starter Pack (Kreisel + Launcher)",
-  "price": "10.99",
-  "currency": "€",
-  "desc": "Das perfekte Starter-Set für schnelle Duelle: Beyblade X Kreisel inkl. Launcher – ideal zum Einsteigen, Sammeln und Battlen mit Freunden.",
-  "badge": "Hot",
-  "link": "https://amzn.to/4kCkPQ9",
-  "image": "beyblade-x-sword-dran.webp"
-},
-
- {
-  "id": "drop-002",
-  "title": "SteelSeries Apex 7 – Mechanische Gaming-Tastatur (OLED, RGB, QWERTZ)",
-  "price": "161.33",
-  "currency": "€",
-  "desc": "Mechanische High-Performance Gaming-Tastatur mit OLED Smart Display, langlebiger Aluminiumkonstruktion und individuell anpassbarer RGB-Beleuchtung. Für ambitionierte Gamer mit Anspruch.",
-  "badge": "Hot",
-  "link": "https://amzn.to/4rUklqX",
-  "image": "steelseries-apex7.webp"
-},
-
+      "id": "drop-001",
+      "title": "Beyblade X Sword Dran 3-60F – Starter Pack (Kreisel + Launcher)",
+      "price": "10.99",
+      "currency": "€",
+      "desc": "Das perfekte Starter-Set für schnelle Duelle: Beyblade X Kreisel inkl. Launcher – ideal zum Einsteigen, Sammeln und Battlen mit Freunden.",
+      "badge": "Hot",
+      "link": "https://amzn.to/4kCkPQ9",
+      "image": "beyblade-x-sword-dran.webp"
+    },
     {
-  "id": "drop-003",
-  "title": "roborock QV 35A – Saugroboter mit Wischfunktion & All-in-One Dock (8000Pa)",
-  "price": "349.98",
-  "currency": "€",
-  "desc": "Power-Cleaning für Zuhause: 8000Pa Saugkraft, verhedderungsfreie Bürsten, rotierende Mopps (anhebbar) und ein vollautomatisches Dock zum Entleeren, Waschen & Trocknen. Präzise LiDAR-Navigation inklusive.",
-  "badge": "Premium",
-  "link": "https://amzn.to/4rls7Kz",
-  "image": "roborock-qv35a.webp"
-},
-
-
+      "id": "drop-002",
+      "title": "SteelSeries Apex 7 – Mechanische Gaming-Tastatur (OLED, RGB, QWERTZ)",
+      "price": "161.33",
+      "currency": "€",
+      "desc": "Mechanische High-Performance Gaming-Tastatur mit OLED Smart Display, langlebiger Aluminiumkonstruktion und individuell anpassbarer RGB-Beleuchtung. Für ambitionierte Gamer mit Anspruch.",
+      "badge": "Hot",
+      "link": "https://amzn.to/4rUklqX",
+      "image": "steelseries-apex7.webp"
+    },
     {
-  "id": "drop-004",
-  "title": "VKH LED Strip 10m – RGB Lichtband mit App & Fernbedienung",
-  "price": "18.99",
-  "currency": "€",
-  "desc": "10m RGB LED-Strip mit App-Steuerung, Fernbedienung und Musik-Sync – perfektes Upgrade für Gaming-Setups, Schlafzimmer oder Party-Vibes.",
-  "badge": "New",
-  "link": "https://amzn.to/4tJAIZa",
-  "image": "vkh-led-strip-10m.webp"
-}
-
-
+      "id": "drop-003",
+      "title": "roborock QV 35A – Saugroboter mit Wischfunktion & All-in-One Dock (8000Pa)",
+      "price": "349.98",
+      "currency": "€",
+      "desc": "Power-Cleaning für Zuhause: 8000Pa Saugkraft, verhedderungsfreie Bürsten, rotierende Mopps (anhebbar) und ein vollautomatisches Dock zum Entleeren, Waschen & Trocknen. Präzise LiDAR-Navigation inklusive.",
+      "badge": "Premium",
+      "link": "https://amzn.to/4rls7Kz",
+      "image": "roborock-qv35a.webp"
+    },
+    {
+      "id": "drop-004",
+      "title": "VKH LED Strip 10m – RGB Lichtband mit App & Fernbedienung",
+      "price": "18.99",
+      "currency": "€",
+      "desc": "10m RGB LED-Strip mit App-Steuerung, Fernbedienung und Musik-Sync – perfektes Upgrade für Gaming-Setups, Schlafzimmer oder Party-Vibes.",
+      "badge": "New",
+      "link": "https://amzn.to/4tJAIZa",
+      "image": "vkh-led-strip-10m.webp"
+    }
   ]
-},
-{
-  "id": "men-005",
-  "title": "Holzkohlegrill XXL – Grillwagen mit Deckel & Gusseisen-Grillrost",
-  "price": "109.99",
-  "currency": "€",
-  "desc": "Massiver Holzkohle-Grillwagen mit Deckel und Gusseisenrost – ideal für direktes Grillen mit kräftigem Branding. Stabil, groß und perfekt für Balkon, Garten oder BBQ-Abende.",
-  "badge": "Hot",
-  "link": "https://amzn.to/4rh3776",
-  "image": "assets/img/holzkohlegrill-xxl-gusseisen.webp"
 }
+
+  
+  
