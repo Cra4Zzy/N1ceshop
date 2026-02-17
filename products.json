@@ -41,7 +41,18 @@
   "badge": "Hot",
   "link": "https://amzn.to/46cNYeG",
   "image": "taino-hero-xl-smoker.webp"
+},
+    {
+  "id": "men-005",
+  "title": "Holzkohlegrill XXL – Grillwagen mit Deckel & Gusseisen-Grillrost",
+  "price": "109.99",
+  "currency": "€",
+  "desc": "Massiver Holzkohle-Grillwagen mit Deckel und Gusseisenrost – ideal für direktes Grillen mit kräftigem Branding. Stabil, groß und perfekt für Balkon, Garten oder BBQ-Abende.",
+  "badge": "Hot",
+  "link": "https://amzn.to/4rh3776",
+  "image": "assets/img/holzkohlegrill-xxl-gusseisen.webp"
 }
+
 
 
   ],
@@ -141,4 +152,14 @@
 
 
   ]
+},
+{
+  "id": "men-005",
+  "title": "Holzkohlegrill XXL – Grillwagen mit Deckel & Gusseisen-Grillrost",
+  "price": "109.99",
+  "currency": "€",
+  "desc": "Massiver Holzkohle-Grillwagen mit Deckel und Gusseisenrost – ideal für direktes Grillen mit kräftigem Branding. Stabil, groß und perfekt für Balkon, Garten oder BBQ-Abende.",
+  "badge": "Hot",
+  "link": "https://amzn.to/4rh3776",
+  "image": "assets/img/holzkohlegrill-xxl-gusseisen.webp"
 }
