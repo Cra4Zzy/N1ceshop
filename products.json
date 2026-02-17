@@ -1,120 +1,108 @@
 {
   "men": [
     {
-  "id": "men-001",
-  "title": "adidas Adilette Aqua Slides – Unisex Badeschlappen",
-  "price": "13.31",
-  "currency": "€",
-  "desc": "Clean, leicht und schnell trocken: die Adilette Aqua ist perfekt für Gym, Dusche, Pool oder einfach als Everyday Slide.",
-  "badge": "Best Seller",
-  "link": "https://amzn.to/4rN2F0e",
-  "image": "adilette-aqua-darkblue.webp"
-},
-
-   {
-  "id": "men-002",
-  "title": "Bürstenaufsatz Set für Akkuschrauber (6er Set inkl. Verlängerung)",
-  "price": "19.95",
-  "currency": "€",
-  "desc": "6-teiliges Reinigungs-Set für Akkuschrauber & Bohrmaschine – ideal für Auto, Felgen, Fliesen und Polster. Schnelle, kraftvolle Reinigung ohne mühsames Schrubben.",
-  "badge": "Hot",
-  "link": "https://amzn.to/4qDVwyo",
-  "image": "akkuschrauber-buersten-set.webp"
-}
-,
+      "id": "men-001",
+      "title": "adidas Adilette Aqua Slides – Unisex Badeschlappen",
+      "price": "13.31",
+      "currency": "€",
+      "desc": "Clean, leicht und schnell trocken: die Adilette Aqua ist perfekt für Gym, Dusche, Pool oder einfach als Everyday Slide.",
+      "badge": "Best Seller",
+      "link": "https://amzn.to/4rN2F0e",
+      "image": "adilette-aqua-darkblue.webp"
+    },
     {
-  "id": "men-003",
-  "title": "OLEVS Edelstahl Herrenuhr – Klassische Quarz Armbanduhr mit Datumsanzeige",
-  "price": "46.23",
-  "currency": "€",
-  "desc": "Elegante Edelstahl-Herrenuhr mit drehbarer Lünette, präzisem Quarzwerk und gut lesbarem Datumsfenster. Klassischer Look für Alltag, Business oder besondere Anlässe.",
-  "badge": "Premium",
-  "link": "https://amzn.to/46aZl6Z",
-  "image": "olevs-herrenuhr-rot.webp"
-},
-{
-  "id": "men-004",
-  "title": "TAINO HERO XL Smoker – Holzkohle Grillwagen mit Thermometer & Warmhalte-Zone",
-  "price": "134.80",
-  "currency": "€",
-  "desc": "Räuchern, direkt & indirekt grillen: XL-Grillfläche mit porzellanbeschichteten Rosten, höhenverstellbares Kohlerost (Kurbel) und integriertes Thermometer. Mit klappbaren Seitentischen für extra Platz.",
-  "badge": "Hot",
-  "link": "https://amzn.to/46cNYeG",
-  "image": "taino-hero-xl-smoker.webp"
-},
+      "id": "men-002",
+      "title": "Bürstenaufsatz Set für Akkuschrauber (6er Set inkl. Verlängerung)",
+      "price": "19.95",
+      "currency": "€",
+      "desc": "6-teiliges Reinigungs-Set für Akkuschrauber & Bohrmaschine – ideal für Auto, Felgen, Fliesen und Polster. Schnelle, kraftvolle Reinigung ohne mühsames Schrubben.",
+      "badge": "Hot",
+      "link": "https://amzn.to/4qDVwyo",
+      "image": "akkuschrauber-buersten-set.webp"
+    },
     {
-  "id": "men-005",
-  "title": "Holzkohlegrill XXL – Grillwagen mit Deckel & Gusseisen-Grillrost",
-  "price": "109.99",
-  "currency": "€",
-  "desc": "Massiver Holzkohle-Grillwagen mit Deckel und Gusseisenrost – ideal für direktes Grillen mit kräftigem Branding. Stabil, groß und perfekt für Balkon, Garten oder BBQ-Abende.",
-  "badge": "Hot",
-  "link": "https://amzn.to/4rh3776",
-  "image": "assets/img/holzkohlegrill-xxl-gusseisen.webp"
-},
+      "id": "men-003",
+      "title": "OLEVS Edelstahl Herrenuhr – Klassische Quarz Armbanduhr mit Datumsanzeige",
+      "price": "46.23",
+      "currency": "€",
+      "desc": "Elegante Edelstahl-Herrenuhr mit drehbarer Lünette, präzisem Quarzwerk und gut lesbarem Datumsfenster. Klassischer Look für Alltag, Business oder besondere Anlässe.",
+      "badge": "Premium",
+      "link": "https://amzn.to/46aZl6Z",
+      "image": "olevs-herrenuhr-rot.webp"
+    },
     {
-  "id": "men-006",
-  "title": "LGACG 1935 Holzkohlegrill Grillwagen – mit Deckel & Holzablagen",
-  "price": "119.99",
-  "currency": "€",
-  "desc": "Solider Holzkohle-Grillwagen mit Deckel, praktischen Holzablagen und guter Grillfläche – perfekt für Balkon, Garten und entspannte BBQ-Abende.",
-  "badge": "Hot",
-  "link": "https://amzn.to/4bUqM8F",
-  "image": "assets/img/lgacg-1935-holzkohlegrill.webp"
-}
-
-
-
-
+      "id": "men-004",
+      "title": "TAINO HERO XL Smoker – Holzkohle Grillwagen mit Thermometer & Warmhalte-Zone",
+      "price": "134.80",
+      "currency": "€",
+      "desc": "Räuchern, direkt & indirekt grillen: XL-Grillfläche mit porzellanbeschichteten Rosten, höhenverstellbares Kohlerost (Kurbel) und integriertes Thermometer. Mit klappbaren Seitentischen für extra Platz.",
+      "badge": "Hot",
+      "link": "https://amzn.to/46cNYeG",
+      "image": "taino-hero-xl-smoker.webp"
+    },
+    {
+      "id": "men-005",
+      "title": "Holzkohlegrill XXL – Grillwagen mit Deckel & Gusseisen-Grillrost",
+      "price": "109.99",
+      "currency": "€",
+      "desc": "Massiver Holzkohle-Grillwagen mit Deckel und Gusseisenrost – ideal für direktes Grillen mit kräftigem Branding. Stabil, groß und perfekt für Balkon, Garten oder BBQ-Abende.",
+      "badge": "Hot",
+      "link": "https://amzn.to/4rh3776",
+      "image": "holzkohlegrill-xxl-gusseisen.webp"
+    },
+    {
+      "id": "men-006",
+      "title": "LGACG 1935 Holzkohlegrill Grillwagen – mit Deckel & Holzablagen",
+      "price": "119.99",
+      "currency": "€",
+      "desc": "Solider Holzkohle-Grillwagen mit Deckel, praktischen Holzablagen und guter Grillfläche – perfekt für Balkon, Garten und entspannte BBQ-Abende.",
+      "badge": "Hot",
+      "link": "https://amzn.to/4bUqM8F",
+      "image": "lgacg-1935-holzkohlegrill.webp"
+    }
   ],
   "women": [
     {
-  "id": "women-001",
-  "title": "Ninabella Entwirr-Haarbürste – Detangler ohne Ziepen (für Locken & langes Haar)",
-  "price": "9.99",
-  "currency": "€",
-  "desc": "Sanft entwirren ohne Ziepen: ergonomische Detangler-Bürste für glattes Haar, Locken und lange Längen – ideal für den Alltag und nach dem Duschen.",
-  "badge": "Best Seller",
-  "link": "https://amzn.to/3MbsmbW",
-  "image": "ninabella-detangler.webp"
-},
-
+      "id": "women-001",
+      "title": "Ninabella Entwirr-Haarbürste – Detangler ohne Ziepen (für Locken & langes Haar)",
+      "price": "9.99",
+      "currency": "€",
+      "desc": "Sanft entwirren ohne Ziepen: ergonomische Detangler-Bürste für glattes Haar, Locken und lange Längen – ideal für den Alltag und nach dem Duschen.",
+      "badge": "Best Seller",
+      "link": "https://amzn.to/3MbsmbW",
+      "image": "ninabella-detangler.webp"
+    },
     {
-  "id": "women-002",
-  "title": "TYMO ROVY Wellen-Eisen – 3-Fass Wave Curler für schnelle Beach Waves (25mm)",
-  "price": "62.99",
-  "currency": "€",
-  "desc": "Schnelle Beach Waves ohne Übung: 3-Fass-Design mit Keramik-Turmalin, Anti-Verbrennungsschutz und Ionentechnologie gegen Frizz. In ca. 30 Sekunden aufgeheizt – für glatte, glänzende Wellen.",
-  "badge": "Hot",
-  "link": "https://amzn.to/4cy50I1",
-  "image": "tymo-rovy-wave-curler.webp"
-}
-,
+      "id": "women-002",
+      "title": "TYMO ROVY Wellen-Eisen – 3-Fass Wave Curler für schnelle Beach Waves (25mm)",
+      "price": "62.99",
+      "currency": "€",
+      "desc": "Schnelle Beach Waves ohne Übung: 3-Fass-Design mit Keramik-Turmalin, Anti-Verbrennungsschutz und Ionentechnologie gegen Frizz. In ca. 30 Sekunden aufgeheizt – für glatte, glänzende Wellen.",
+      "badge": "Hot",
+      "link": "https://amzn.to/4cy50I1",
+      "image": "tymo-rovy-wave-curler.webp"
+    },
     {
-  "id": "women-003",
-  "title": "Golden Curl 2-in-1 Glätteisen & Lockenstab (Rose Gold)",
-  "price": "116.99",
-  "currency": "€",
-  "desc": "2-in-1 Stylingtool zum Glätten und Locken: hochwertige Heizplatten für geschmeidiges, glänzendes Haar – ideal für elegante Looks oder definierte Wellen.",
-  "badge": "Premium",
-  "link": "https://amzn.to/4csc4WE",
-  "image": "golden-curl-glätteisen-rosegold.webp"
-},  
-
-
-{
-  "id": "women-004",
-  "title": "BEDSURE Hoodie-Decke mit Ärmeln – Kuschelpullover mit Kapuze (95x85 cm)",
-  "price": "18.99",
-  "currency": "€",
-  "desc": "Ultraweiche Hoodie-Decke mit Ärmeln und Kapuze – perfekt für gemütliche Abende zuhause. Warm, bequem und ideal als Geschenk für Freundin oder Familie.",
-  "badge": "Best Seller",
-  "link": "https://amzn.to/4rUsPyj",
-  "image": "bedsure-hoodie-decke-grau.webp"
-}
-
-[,
-     
+      "id": "women-003",
+      "title": "Golden Curl 2-in-1 Glätteisen & Lockenstab (Rose Gold)",
+      "price": "116.99",
+      "currency": "€",
+      "desc": "2-in-1 Stylingtool zum Glätten und Locken: hochwertige Heizplatten für geschmeidiges, glänzendes Haar – ideal für elegante Looks oder definierte Wellen.",
+      "badge": "Premium",
+      "link": "https://amzn.to/4csc4WE",
+      "image": "golden-curl-glätteisen-rosegold.webp"
+    },
+    {
+      "id": "women-004",
+      "title": "BEDSURE Hoodie-Decke mit Ärmeln – Kuschelpullover mit Kapuze (95x85 cm)",
+      "price": "18.99",
+      "currency": "€",
+      "desc": "Ultraweiche Hoodie-Decke mit Ärmeln und Kapuze – perfekt für gemütliche Abende zuhause. Warm, bequem und ideal als Geschenk für Freundin oder Familie.",
+      "badge": "Best Seller",
+      "link": "https://amzn.to/4rUsPyj",
+      "image": "bedsure-hoodie-decke-grau.webp"
+    }
+  ],
   "drops": [
     {
       "id": "drop-001",
@@ -157,6 +145,7 @@
       "image": "vkh-led-strip-10m.webp"
     }
   ]
+}
 
 
   
