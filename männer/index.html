@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+<title>N1CE STUDIO — Männer</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="#0f1115" name="theme-color"/>
+<link href="../assets/css/styles.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&amp;family=Oswald:wght@400;500;600;700&amp;family=Playfair+Display:wght@400;500;600;700&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="../assets/img/n1celogo.png" rel="icon" type="image/svg+xml"/>
+</head>
+<body class="category theme-men" data-category="men" data-base="../">
+<header class="topbar">
+<div class="container">
+<div class="topbar-inner">
+<a aria-label="Home" class="brand" href="../startseite/">
+<img alt="N1CEshop" class="brand-logo" src="../assets/img/n1celogo.png"/>
+<span class="tagline">Hype Drops • Smart Picks</span>
+</a>
+<nav aria-label="Shop Navigation" class="nav">
+<a data-navlink="" href="../startseite/">Home</a>
+<a data-navlink="" href="../männer/">Männer</a>
+<a data-navlink="" href="../frauen/">Frauen</a>
+<a data-navlink="" href="../drops/">Drops</a>
+</nav>
+<div style="display:flex;align-items:center;gap:10px">
+<div aria-label="Search" class="search">
+<span class="pill">⌕</span>
+<input placeholder="Suchen …" type="text"/>
+</div>
+<a class="btn primary" href="../drops/">New Drops</a>
+<button aria-label="Open menu" class="burger" id="burger">☰</button>
+</div>
+</div>
+</div>
+</header>
+<div aria-hidden="true" class="drawer" id="drawer">
+<div aria-label="Menu" aria-modal="true" class="drawer-panel" role="dialog">
+<div style="display:flex;align-items:center;justify-content:space-between;gap:10px">
+<div style="display:flex;align-items:center;gap:10px">
+<span aria-hidden="true" class="brand-badge" style="width:24px;height:24px;border-radius:10px"></span>
+<strong style="letter-spacing:.18em;font-size:12px">N1CE STUDIO</strong>
+</div>
+<button class="btn ghost" id="drawerClose" type="button">Close</button>
+</div>
+<div class="drawer-nav">
+<a href="../startseite/">Home</a>
+<a href="../männer/">Männer</a>
+<a href="../frauen/">Frauen</a>
+<a href="../drops/">Drops</a>
+</div>
+<div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap">
+<a class="btn primary" href="../drops/">New Drops</a>
+<a class="btn ghost" href="index.html#categories">Kategorien</a>
+</div>
+</div>
+</div>
+<section class="page-hero page-hero--banner" style="background-image: linear-gradient(180deg, rgba(255,255,255,.10) 0%, rgba(255,255,255,.04) 45%, rgba(0,0,0,.10) 100%), url(../assets/img/männerhero.png); background-position: center 72%;">
+<div class="container">
+<div class="category-hero reveal category-hero--center"><div class="breadcrumbs">
+<a href="../startseite/">Home</a>
+<span>›</span>
+<span>Männer</span>
+</div><div class="subcategories">
+      <button class="subcat-btn is-active" data-filter="all">Alle</button>
+      <button class="subcat-btn" data-filter="schuhe">Schuhe</button>
+      <button class="subcat-btn" data-filter="outdoor">Outdoor</button>
+      <button class="subcat-btn" data-filter="lifestyle">Lifestyle</button>
+    </div><div class="hero-copy"><h1>Männer</h1><p>Kuratiert, klar und schnell. Klick auf <strong>„Zum Deal“</strong> und du landest direkt beim Partner-Shop.</p></div><div class="meta">
+<span class="count-pill"><span id="count">—</span> Produkte</span>
+<a class="btn ghost" href="../drops/">Drops</a>
+</div></div>
+</div>
+</section>
+<section class="section products-section">
+<div class="container container--soft">
+<div class="toolbar">
+<div class="filters">
+<div class="search" style="min-width:360px">
+<span class="pill">⌕</span>
+<input id="searchInput" placeholder="Suchen in Männer …" type="text"/>
+</div></div>
+<div class="sort">
+<select aria-label="Sort" id="sortSelect">
+<option value="featured">Sort: Featured</option>
+<option value="price-asc">Preis: Low → High</option>
+<option value="price-desc">Preis: High → Low</option>
+<option value="title">Name: A → Z</option>
+</select>
+</div>
+</div>
+<div aria-label="Product grid" class="grid-products" id="productGrid">
+</div>
+
+  <div class="price-note" role="note" aria-label="Preis-Hinweis">
+    <p>Hinweis: Preise und Verfügbarkeit können beim Händler abweichen. Es gilt der Preis auf der Partner‑Website.</p>
+  </div>
+
+</div>
+</section>
+<div aria-hidden="true" class="modal" id="modal">
+<div aria-label="Product details" aria-modal="true" class="modal-card" role="dialog">
+<div class="modal-grid">
+<div class="modal-media"><img alt="Product" id="modalImg" src="../assets/img/prod-placeholder.svg"/></div>
+<div class="modal-body">
+<div class="modal-top">
+<span class="badge">Details</span>
+<button class="close" id="modalClose" type="button">Close</button>
+</div>
+<h3 id="modalTitle">Product Title</h3>
+<p id="modalDesc">Description</p>
+<div style="height:14px"></div>
+<div class="price" id="modalPrice">€0.00</div>
+<div style="height:14px"></div>
+<div style="display:flex;gap:10px;flex-wrap:wrap">
+<a class="btn primary" href="#" id="modalLink" rel="noopener" target="_blank">Zum Deal</a>
+<a class="btn ghost" href="../startseite/">Home</a>
+</div>
+<div style="height:14px"></div>
+<p class="small">Kuratiert. Transparent. Direkt zum Deal beim Partner-Shop. Keine Umwege — nur schnelle Entscheidungen.</p>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class="container">
+<div class="footer-grid">
+<!-- Column 1: Brand -->
+<div class="footer-brand">
+<a class="footer-brand-link" href="../startseite/">
+<img alt="N1CEshop Logo" class="footer-logo" src="../assets/img/n1celogo.png"/>
+</a>
+<div class="footer-tagline">Hype Produkte. Seriös kuratiert. Affiliate-basiert.</div>
+<div class="copy">© <span id="year"></span> N1CEshop</div>
+</div>
+<!-- Column 2: Shop -->
+<div>
+<h4 class="footer-title">Shop</h4>
+<div class="footer-links">
+<a href="../männer/">Männer</a>
+<a href="../frauen/">Frauen</a>
+<a href="../drops/">Drops</a>
+</div>
+</div>
+<!-- Column 3: Legal -->
+<div>
+<h4 class="footer-title">Legal</h4>
+<div class="footer-links">
+<a href="../impressum/">Impressum</a>
+<a href="../datenschutz/">Datenschutz</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

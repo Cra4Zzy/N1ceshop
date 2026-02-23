@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+<title>N1CEshop — Curated Affiliate Picks</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="#0f1115" name="theme-color"/>
+<link href="../assets/css/styles.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Oswald:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="../assets/img/n1celogo.png" rel="icon" type="image/svg+xml"/>
+</head>
+<body data-base="../">
+<header class="topbar">
+<div class="container">
+<div class="topbar-inner">
+<a aria-label="Home" class="brand" href="./">
+<img alt="N1CEshop" class="brand-logo" src="../assets/img/n1celogo.png"/>
+<span class="tagline">Hype Drops • Smart Picks</span>
+</a>
+<nav aria-label="Shop Navigation" class="nav">
+<a data-navlink="" href="./">Home</a>
+<a data-navlink="" href="../männer/">Männer</a>
+<a data-navlink="" href="../frauen/">Frauen</a>
+<a data-navlink="" href="../drops/">Drops</a>
+</nav>
+<div style="display:flex;align-items:center;gap:10px">
+<div aria-label="Search" class="search">
+<span class="pill">⌕</span>
+<input placeholder="Suchen …" type="text"/>
+</div>
+<a class="btn primary" href="../drops/">New Drops</a>
+<button aria-label="Open menu" class="burger" id="burger">☰</button>
+</div>
+</div>
+</div>
+</header>
+<div aria-hidden="true" class="drawer" id="drawer">
+<div aria-label="Menu" aria-modal="true" class="drawer-panel" role="dialog">
+<div style="display:flex;align-items:center;justify-content:space-between;gap:10px">
+<div style="display:flex;align-items:center;gap:10px">
+<span aria-hidden="true" class="brand-badge" style="width:24px;height:24px;border-radius:10px"></span>
+<strong style="letter-spacing:.18em;font-size:12px">N1CEshop</strong>
+</div>
+<button class="btn ghost" id="drawerClose" type="button">Close</button>
+</div>
+<div class="drawer-nav">
+<a href="./">Home</a>
+<a href="../männer/">Männer</a>
+<a href="../frauen/">Frauen</a>
+<a href="../drops/">Drops</a>
+</div>
+<div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap">
+<a class="btn primary" href="../drops/">New Drops</a>
+<a class="btn ghost" href="index.html#categories">Kategorien</a>
+</div>
+</div>
+</div>
+<main class="hero hero--full" style="background-image: url('../assets/img/herobild.png');"><div class="hero-full-inner"><div class="container"><div class="hero-full-content reveal"><h1 class="hero-title">Hype Produkte. Smart Picks.</h1><div class="hero-actions"><a class="btn primary" href="#categories">Jetzt entdecken</a><a class="btn ghost" href="../drops/">Zu den Drops</a></div></div></div></div></main>
+
+<section class="ticker-section" aria-label="N1CE Ticker">
+  <div class="ticker-shell">
+    <div class="ticker-led">
+      <div class="ticker-scan"></div>
+      <div class="ticker-inner">
+<div class="flip-track" id="n1ceFlip" data-interval="2600">
+          <div class="flip-screen" aria-live="polite">
+            <span class="flip-label">N1CE</span>
+            <div class="flip-wrap">
+              <div class="flip-card" id="flipCard">
+                <div class="flip-face flip-front" id="flipFront">N1CESHOP — IHRE BESTE AUSWAHL AN PRODUKTEN</div>
+                <div class="flip-face flip-back" id="flipBack">NEUE DROPS LIVE — CHECK DIE HEISSESTEN DEALS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section featured-section" id="featured"><div class="container"><div class="section-top"><div class="reveal"><h2 class="h2">Featured Picks</h2><p class="small">Trending gerade — 3 schnelle Empfehlungen (Drops, Frauen, Männer).</p></div><div class="reveal" style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn ghost mini-cta" href="#categories">Alle Kategorien</a></div></div><div class="featured-grid featured-grid--large" id="featuredGrid"></div></div></section><section class="section" id="categories">
+<div class="container">
+<div class="section-top">
+<div class="reveal">
+<h2 class="h2">Kategorien</h2>
+<p class="small">Kuratiert. Transparent. Direkt zum Deal beim Partner-Shop. Keine Umwege — nur schnelle Entscheidungen.</p>
+</div>
+<div class="reveal" style="display:flex;gap:10px;flex-wrap:wrap"></div>
+</div>
+<div class="tiles">
+<a class="tile reveal" href="../männer/">
+<div class="media"><img alt="Men" src="../assets/img/mann.png"/></div>
+<div class="body"><h3>Männer</h3><p>Essentials &amp; Upgrades — clean curated.</p></div>
+<div class="footer"><span class="pill">Shop now</span><span class="arrow">→</span></div>
+</a>
+<a class="tile reveal" href="../frauen/">
+<div class="media"><img alt="Women" src="../assets/img/frauen.png"/></div>
+<div class="body"><h3>Frauen</h3><p>Elevated styles — classy basics &amp; accessories.</p></div>
+<div class="footer"><span class="pill">Shop now</span><span class="arrow">→</span></div>
+</a>
+<a class="tile reveal" href="../drops/">
+<div class="media"><img alt="Drops" src="../assets/img/vkh-led-strip-10m.webp"/></div>
+<div class="body"><h3>Drops</h3><p>Neue Deals &amp; Trends — limited vibes.</p></div>
+<div class="footer"><span class="pill">New</span><span class="arrow">→</span></div>
+</a>
+</div>
+</div>
+</section>
+<section class="section">
+<div class="container">
+<div class="why-wrap reveal">
+<div class="why-head">
+<h2>Warum Niceshop?</h2>
+<p>Wir kombinieren Trend-Research mit echtem Mehrwert – damit du nur Drops siehst, die wirklich Sinn machen.</p>
+</div>
+<div class="why-grid">
+<div class="why-card">
+<div class="why-icon">⚡</div>
+<h3>Immer am Puls</h3>
+<p>Wir scannen täglich Märkte, Social Media und Retail – bevor Produkte Mainstream werden.</p>
+</div>
+<div class="why-card">
+<div class="why-icon">🎯</div>
+<h3>Sauber kuratiert</h3>
+<p>Keine Masse, kein Spam. Nur Produkte, die gerade wirklich gefragt sind und überzeugen.</p>
+</div>
+<div class="why-card">
+<div class="why-icon">🛡️</div>
+<h3>Seriöse Partner</h3>
+<p>Du kaufst immer bei etablierten Shops – klare Zahlungsarten und Versand aus verlässlichen Quellen.</p>
+</div>
+<div class="why-card">
+<div class="why-icon">✨</div>
+<h3>Zero Bullshit</h3>
+<p>Transparenz statt Marketing-Märchen. Bewertungen, Infos &amp; Links ohne versteckte Tricks.</p>
+</div>
+</div>
+<div class="why-note">Hinweis: N1ceshop arbeitet Affiliate-basiert – du kaufst beim Partner, wir erhalten ggf. eine Provision. Für dich bleibt der Preis gleich.</div>
+</div>
+</div>
+</section>
+<footer>
+<div class="container">
+<div class="footer-grid">
+<!-- Column 1: Brand -->
+<div class="footer-brand">
+<a class="footer-brand-link" href="./">
+<img alt="N1CEshop Logo" class="footer-logo" src="../assets/img/n1celogo.png"/>
+</a>
+<div class="footer-tagline">Hype Produkte. Seriös kuratiert. Affiliate-basiert.</div>
+<div class="copy">© <span id="year"></span> N1CEshop</div>
+</div>
+<!-- Column 2: Shop -->
+<div>
+<h4 class="footer-title">Shop</h4>
+<div class="footer-links">
+<a href="../männer/">Männer</a>
+<a href="../frauen/">Frauen</a>
+<a href="../drops/">Drops</a>
+</div>
+</div>
+<!-- Column 3: Legal -->
+<div>
+<h4 class="footer-title">Legal</h4>
+<div class="footer-links">
+<a href="../impressum/">Impressum</a>
+<a href="../datenschutz/">Datenschutz</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>
